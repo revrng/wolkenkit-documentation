@@ -7,6 +7,6 @@ console.timeEnd('Loading the index');
 
 console.time('Searching for Docker');
 console.log(
-  searchIndex.search('Docker')
+  searchIndex.search('+Provide +identity')
 );
 console.timeEnd('Searching for Docker');
